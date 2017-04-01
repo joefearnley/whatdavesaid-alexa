@@ -1,0 +1,19 @@
+{
+  "name": "whatdavesaid-alexa",
+  "version": "1.0.0",
+  "description": "What Dave Said Alexa skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joefearnley/whatdavesaid-alexa.git"
+  },
+  "author": "Joe Fearnley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joefearnley/whatdavesaid-alexa/issues"
+  },
+  "homepage": "https://github.com/joefearnley/whatdavesaid-alexa#readme"
+}
