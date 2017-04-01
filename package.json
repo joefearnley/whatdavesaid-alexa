@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/joefearnley/whatdavesaid-alexa/issues"
   },
-  "homepage": "https://github.com/joefearnley/whatdavesaid-alexa#readme"
+  "homepage": "https://github.com/joefearnley/whatdavesaid-alexa#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.7"
+  }
 }
