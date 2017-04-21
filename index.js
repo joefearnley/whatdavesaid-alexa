@@ -25,12 +25,9 @@ var handlers = {
         this.emit('GetClip');
     },
     'GetClip': function () {
-        var randomIndex = Math.floor(Math.random() * feanrleyFacts.length);
-        var clip = clips[randomIndex];
-
+        var clip = clips[Math.floor(Math.random() * clips.length)];
         var speechOutput = "Here's what dave said: " + clip;
-
-        this.emit(':tellWithCard', speechOutput, SKILL_NAME, randomFact)
+        this.emit(':tellWithCard', speechOutput, SKILL_NAME, randomFact);
     },
     'AMAZON.HelpIntent': function () {
         var speechOutput = "You can ask what dave said, or, you can say exit... What can I help you with?";
