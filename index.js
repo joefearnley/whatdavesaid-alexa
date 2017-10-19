@@ -26,7 +26,7 @@ const handlers = {
   },
   'PlayAudio' () {
     const clip = clips[Math.floor(Math.random() * clips.length)];
-    const speechOutput = `Here's what dave said: ` + clip;
+    const speechOutput = `Here's what dave said: <audio src="${clip}" />`;
     this.emit(":tellWithCard", speechOutput, skillName, speechOutput);
   },
   'AMAZON.HelpIntent' () {
