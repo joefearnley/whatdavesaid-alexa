@@ -3,21 +3,18 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "A starter template for an Alexa audio streaming skill.",
+          "summary": "What Dave Said Alexa Skill",
           "examplePhrases": [
-            "Alexa, open Audio Steam Starter",
-            "Alexa, play Audio Steam Starter",
-            "Alexa, ask Audio Steam Starter to play"
+            "Alexa, what did Dave say"
           ],
           "keywords": [
             "audio streaming",
-            "music",
-            "live music"
+            "soundboard"
           ],
-          "name": "audio-stream-starter",
-          "description": "A starter template for an Alexa audio streaming skill.",
-          "smallIconUri": "https://s3.amazonaws.com/cdn.dabblelab.com/img/audiostream-starter-108x108.png",
-          "largeIconUri": "https://s3.amazonaws.com/cdn.dabblelab.com/img/audiostream-starter-512x512.png"
+          "name": "whatsavesaid",
+          "description": "What Dave Said Alexa Skill",
+          "smallIconUri": "http://joefearnley.com/whatdavesaid/img/dave_bw.jpg",
+          "largeIconUri": "http://joefearnley.com/whatdavesaid/img/dave_bw.jpg"
         }
       },
       "isAvailableWorldwide": true,
@@ -43,8 +40,8 @@
       "allowsPurchases": false,
       "locales": {
         "en-US": {
-          "termsOfUseUrl": "http://dabblelab.com/terms",
-          "privacyPolicyUrl": "http://dabblelab.com/privacy"
+          "termsOfUseUrl": "",
+          "privacyPolicyUrl": ""
         }
       },
       "isExportCompliant": true,
