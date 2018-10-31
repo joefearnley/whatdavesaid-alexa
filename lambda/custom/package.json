@@ -1,0 +1,20 @@
+{
+  "name": "whatdavesaid-alexa",
+  "version": "1.0.0",
+  "description": "What Dave Said Alexa Skill",
+  "main": "index.js",
+  "keywords": [
+    "alexa",
+    "skill",
+    "audio streaming"
+  ],
+  "author": "Joe Fearnley",
+  "license": "MIT",
+  "dependencies": {
+    "ask-sdk": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joefearnley/whatdavesaid-alexa.git"
+  }
+}

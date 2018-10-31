@@ -30,8 +30,7 @@ const handlers = {
     this.emit(":tellWithCard", speechOutput, skillName, speechOutput);
   },
   'AMAZON.HelpIntent' () {
-    const speechOutput =
-      "You can ask what dave said, or, you can say exit... What can I help you with?";
+    const speechOutput = "You can ask what did dave say, or, you can say exit...What can I help you with?";
     const reprompt = "What can I help you with?";
     this.emit(":ask", speechOutput, reprompt);
   },
